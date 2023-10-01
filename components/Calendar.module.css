@@ -1,0 +1,25 @@
+table.calendar{
+  font-family: sans-serif;
+  padding: 1em;
+  outline: 1px dotted gray;
+  background-color: rgb(209, 224, 235);
+}
+
+table.calendar td {
+  text-align: center;
+  cursor: pointer; 
+}
+
+table.calendar td:hover {
+  outline: 1px dotted blue;
+}
+
+table.calendar td.selected {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+}
+
+table.calendar tr :nth-child(7){
+  color:red;
+}

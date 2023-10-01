@@ -1,0 +1,7 @@
+.pop-window {
+  margin: 20px 0;
+  position: absolute;
+  border-radius: 7px;
+  background: white;
+  box-shadow: 0 0 20px 3px gray;
+}
